@@ -11,8 +11,7 @@ def girale(d):
 	d.sync()
 
 d = Display()
-time.sleep(4)
-print "girando"
+time.sleep(3)
 girale(d)
-print "giro"
+
 

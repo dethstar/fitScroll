@@ -1,4 +1,5 @@
 Requirements:
+For it to work you need to run this with sudo permissions
 Arduino:
 ^^ install arduino
 
