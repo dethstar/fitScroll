@@ -4,14 +4,13 @@ from Xlib.ext.xtest import fake_input
 import time
 #4 mueve hacia arriba
 #5 mueve hacia abajo
-def girale(d):
-	fake_input(d,X.ButtonPress,5)
+def girale(mov):
+	d = Display()
+	m = 4 if mov==1 else 5
+	fake_input(d,X.ButtonPress,m)
 	d.sync()
-	fake_input(d,X.ButtonRelease,5)
+	fake_input(d,X.ButtonRelease,m)
 	d.sync()
 
-d = Display()
-time.sleep(3)
-girale(d)
 
 
