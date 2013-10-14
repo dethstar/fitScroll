@@ -1,6 +1,6 @@
 fitScroll
 =========
-Most technologic work is done so the user does less. We believe doing less and less will be harmful in the long term, such as in the movie wall-e.
+Most technologic work is done so the user does less. We believe doing less and less will be harmful in the long run, like in that movie Wall-e.
 fitScroll is a tool in the works to help those who spend lots of time using a PC involve in greater physical activity.
 
 This will be achieved by using bike pedals to scroll content (be it a book, a document, or a webpage).
