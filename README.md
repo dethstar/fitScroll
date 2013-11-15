@@ -9,6 +9,13 @@ fitScroll is a tool in the works to help those who use a PC for long time involv
 No support for OS X is planned.
 <hr>
 
+How to use
+=========
+* Arduino
+* Linux
+* Windows
+<br>
+
 
 License
 =========
