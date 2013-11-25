@@ -3,10 +3,7 @@ from win32con import *
 
 def girale(mov):
 	x,y = win32api.GetCursorPos()
-	time.sleep(2)
 	win32api.mouse_event(0x0800,x,y,mov*120,0)
-
-girale(1)
 
 # mouse move 'MOVE'        : 0x0001, 
 # Left button down 'LEFTDOWN'    : 0x0002, 
