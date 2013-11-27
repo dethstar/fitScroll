@@ -18,7 +18,7 @@ No support for OS X is planned, althought if you're using Xorg, it *might* be co
 ###*The following how-to assumes you have every requirement for your system installed [Windows](requirementsWindows.md)|[Linux](requirementsLinux.md).<br>It also assumes you have cloned the repo.
 ####<a name="Circuit"></a>Circuit
 1. Obtain 2 opto interrupters itr8102, those are our cheap sensors.
-2. Make a circuit like the one in the [figure]().<br>
+2. Make a circuit like the one in the [figure]().
 
 
 ####<a name="Arduino"></a>Arduino
