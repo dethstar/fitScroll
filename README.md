@@ -19,6 +19,8 @@ No support for OS X is planned, althought if you're using Xorg, it *might* be co
 ####<a name="Circuit"></a>Circuit
 1. Obtain 2 opto interrupters itr8102, those are our cheap sensors.
 2. Make a circuit like the one in the [figure]().<br>
+
+
 ####<a name="Arduino"></a>Arduino
 1. Connect your Arduino device to your computer and fire up the Arduino software
 2. Copy the fitScroll.ino file content into the Arduino software
