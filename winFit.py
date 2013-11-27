@@ -1,4 +1,4 @@
-import time, win32api
+import win32api
 from win32con import *
 
 def girale(mov):

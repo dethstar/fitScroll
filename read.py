@@ -1,14 +1,12 @@
 import platform
 if platform.system()=="Linux":
-	print "Leenux"
 	import sys
 	device="/dev/tty"+sys.argv[1] #reads from command line
 	del sys
-	import linFit
-	scroll = linFit
+	import linFit as scroll
 elif platform.system()=="Windows":
-	import winFit
-	scroll = winFit
+	import winFit as scroll
+	#scroll = winFit
 	device="COM3"
 else:
 	print("not supported")
