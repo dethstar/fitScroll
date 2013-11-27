@@ -18,9 +18,8 @@ No support for OS X is planned, althought if you're using Xorg, it *might* be co
 ###*The following how-to assumes you have every requirement for your system installed [Windows](requirementsWindows.md)|[Linux](requirementsLinux.md).<br>It also assumes you have cloned the repo.
 ####<a name="Circuit"></a>Circuit
 1. Obtain 2 opto interrupters itr8102, those are our cheap sensors.
-2. Make a circuit like the one in the [figure]().
+2. Make a circuit like the one in the [figure]().<br>
 ####<a name="Arduino"></a>Arduino
-
 1. Connect your Arduino device to your computer and fire up the Arduino software
 2. Copy the fitScroll.ino file content into the Arduino software
 3. You could change the pins to be used, default are pin 7 and pin 8, to do so change the value of the variables ban and ban2 respectively.
@@ -32,7 +31,7 @@ No support for OS X is planned, althought if you're using Xorg, it *might* be co
 2. Go into the ```src``` folder and run<br>
 ```
 sudo python read.py dID
- ``` Where dID is what it says on the Arduino software. E.g ACM0
+ ``` Where dID is what it says on the Arduino software. E.g ACM0<br>
 3. Ready, hop on your bike and scroll.
 
 ####<a name="Windows"></a>Windows
